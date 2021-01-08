@@ -2,7 +2,7 @@
 
 const thisVariable = 25;
 
-const helloWorld = (name = "World") => {
+const greet = (name = "World") => {
   return `Hello ${name}!`;
 }
 
