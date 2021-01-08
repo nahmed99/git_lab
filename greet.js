@@ -2,9 +2,7 @@
 
 const thisVariable = 25;
 
-const helloWorld = (name = "World") => {
-  return `Hello ${name}!`;
-}
+const helloWorld = (name = "World") => `Hello ${name}!`;
 
 
 // Changes from line 5-7 by Ped
