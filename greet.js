@@ -1,7 +1,10 @@
 // This is my change - Nawaz
 
-conts thisVariable = 25;
+const thisVariable = 25;
 
-const helloWorld = () => {
-    return "Hello World!";
-  }
+const helloWorld = (name = "World") => {
+  return `Hello ${name}!`;
+}
+
+
+// Changes from line 5-7 by Ped
